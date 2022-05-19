@@ -1,85 +1,80 @@
-body {  margin-bottom: 0px;
+ body {  margin-bottom: 0px;
         padding: 0px;
         background: url(iqbal.JPG); 
         background-size: cover;
         background-position: center;
         font-family: sans-serif;
         height: 100vh;
+        text-align: none;
 
         }
 
-.login-box {    width: 320px;
-                height: 560px;
+h1      { margin-top: 20px;
+          margin-left: calc( 50%, -50%) ;
+
+}
+
+h1      {       margin-top: 0px;
+                padding: 0 0 20px;
+                text-align: center;
+                font-size: 22px;
+}
+
+.daftar-box {   width: 520px;
+                height: 770px;
                 background: rgba(0, 0, 0, 0.5);
                 color: #fff;
-                top: 50%;
+                top: 55%;
                 left: 50%;
                 position: absolute;
                 box-sizing: border-box;
                 padding: 70px;
                 transform: translate(-50%, -50%);
+                border-radius: 50px;
+                font-size: 12px;
+}
 
+ 
+
+.daftar-box     button[type="submit"] {
+                border: none;
+                outline: none;
+                height: 35px;
+                color: #fff;
+                font-size: 14px;
+                border-radius: 20px;
+                background: #1c8adb;
+                width: 100%;
+        }
+
+.daftar-box    button[type="submit"]:hover{
+                cursor: pointer;
+                background-color: #E33D56;
+                color: #fff;
+                font-size: 14px;
+}
+
+.daftar-box a{  text-decoration: none;
+                font-size: 14px;
+                color: #fff;
+                text-align: center;
+                border: none;
+                outline: none;
+                margin-left: 30%;
+                display: inline-block;
+                width: 50%;
+                height: 20px;
+}
+
+.daftar-box a:hover{
+
+                color: #E33D56;
 }
 
 .avatar      {  width: 100px;
                 height: 100px;
                 border-radius: 50%;
                 position: absolute;
-                top: -8%;
-                left: calc(82% - 50%);
-}
-
-h1           {  margin-top: 0px;
-                padding: 0 0 20px;
-                text-align: center;
-                font-size: 22px;
-}
-
-.login-box   {  font-weight: bold;
-}
-
-.login-box input {  width: 100%;
-                    margin-bottom: 20px;
-
-}
-
-.login-box   input[type="text"], input[type="password"]
-                { border: none;
-                border-bottom: 1px solid #fff;
-                background: transparent;
-                outline: none;
-                height: 40px;
-                color: #fff;
-                font-size: 16px;
-                }
-
-.login-box    input[type="submit"] {
-                border: none;
-                outline: none;
-                height: 40px;
-                color: #fff;
-                font-size: 18px;
-                border-radius: 20px;
-                background: #1c8adb;
-}
-.login-box    input[type="submit"]:hover{
-                cursor: pointer;
-                background-color: #E33D56;
-                color: #fff;
-}
-
-.login-box a{   text-decoration: none;
-                font-size: 14px;
-                color: #fff;
-                left: 70%, -50%;
-                position: absolute;
-                display: inline-block;
-                left: 34%;
-                text-align: center;
-
-}
-
-.login-box a:hover{
-
-                color: #E33D56;
+                top: 20%;
+                left: calc(90% - 50%);
 }
